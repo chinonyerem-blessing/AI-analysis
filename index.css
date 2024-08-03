@@ -1,0 +1,45 @@
+.de{
+    display: grid;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.book{
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+}
+.k{
+    text-align: center;
+}
+.ll{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.ll img{
+    border-radius: 20px;
+}
+
+
+@media(max-width:600px) {
+    h1{
+        font-size: 25px;
+    }
+    .book{
+        width: 100px;
+        height: 100px;
+        margin-left: 240px;
+    }
+    .ll img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (min-width:601px) {
+    .book{
+        
+    }
+}
+
